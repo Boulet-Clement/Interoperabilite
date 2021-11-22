@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE CARNET SYSTEM "carnet.dtd">
+<CARNET>
+    <COMMANDE ID="c1">
+        <PERSONNES>
+            <PERSONNE ID="personne1" ROLE="consomateur">
+                <NOM>Dupont</NOM>
+                <PRENOM>Jean</PRENOM>
+                <ADRESSE>19 ter rue de l'eglise</ADRESSE>
+                <VILLE>OROER</VILLE>
+                <CODEPOSTAL>60510</CODEPOSTAL>
+                <NUMEROTEL>0695482898</NUMEROTEL>
+            </PERSONNE>
+            <PERSONNE ID="personne2" ROLE="producteur">
+                <NOM>Le producteur</NOM>
+                <PRENOM>Michele</PRENOM>
+                <ADRESSE>265 rue de calais</ADRESSE> 
+                <VILLE>Fontaine Saint Lucien</VILLE>
+                <CODEPOSTAL>60480</CODEPOSTAL>
+                <NUMEROTEL>0344042095</NUMEROTEL>
+            </PERSONNE>
+        </PERSONNES>
+        
+        <PRODUITS>
+            <PRODUIT ID="produit1">
+                <INTITULE>Fraises</INTITULE>
+                <QUANTITE>2</QUANTITE>
+                <PRIXUNITAIRE>2.33</PRIXUNITAIRE>
+            </PRODUIT>
+            <PRODUIT ID="produit2">
+                <INTITULE>Tomates</INTITULE>
+                <QUANTITE>1</QUANTITE>
+                <PRIXUNITAIRE>1.77</PRIXUNITAIRE>
+            </PRODUIT>
+        </PRODUITS>
+        
+        <MONTANTTOTAL>6.43</MONTANTTOTAL>
+    </COMMANDE>
+</CARNET>

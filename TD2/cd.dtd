@@ -1,0 +1,13 @@
+<!ELEMENT CDS (CD+)>
+<!ELEMENT CD (Titre, Interprete+, Genre, Piste+, Pochette)>
+<!ELEMENT Piste (Titre, Compositeur+, Duree)>
+<!ELEMENT Titre (#PCDATA)>
+<!ELEMENT Interprete (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Compositeur (#PCDATA)>
+<!ELEMENT Duree (#PCDATA)>
+<!ELEMENT Pochette EMPTY>
+<!ATTLIST Pochette
+  urlface CDATA #REQUIRED
+  urldos  CDATA #IMPLIED
+>
