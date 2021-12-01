@@ -9,6 +9,7 @@
         <html>
             <head/>
             <body>
+                <h1>Liste des films de ma base</h1>
                 <ul>
                     <!-- On parcourt le sous-arbre dans l'ordre 'normal' -->
                     <xsl:apply-templates />  
